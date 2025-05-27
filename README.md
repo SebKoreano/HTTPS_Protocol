@@ -9,7 +9,7 @@ Este repositorio contiene un ejemplo práctico en Python de una aplicación clie
   - Inspección del certificado del servidor.  
   - Envío, recepción y descifrado de mensajes.
 
----
+
 
 ## Contenido
 
@@ -21,18 +21,4 @@ Este repositorio contiene un ejemplo práctico en Python de una aplicación clie
   1. Se conecta al servidor por HTTP, envía y recibe un mensaje en claro.  
   2. Se conecta al servidor por HTTPS, realiza el handshake, muestra el certificado y el cifrado, y transmite un mensaje cifrado.
 
----
 
-## Requisitos
-
-- Python 3.6+  
-- OpenSSL instalado en el sistema (para la generación del certificado).  
-
----
-
-## Cómo usar
-
-1. **Clona el repositorio**  
-   ```bash
-   git clone https://github.com/<tu-usuario>/python-http-https-demo.git
-   cd python-http-https-demo
